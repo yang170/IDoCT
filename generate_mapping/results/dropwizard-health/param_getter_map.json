@@ -1,0 +1,147 @@
+{
+  "io.dropwizard.health.DefaultHealthFactoryTest#configure": [
+    "health.delayedShutdownHandlerEnabled",
+    "health.shutdownWaitPeriod",
+    "health.enabled",
+    "health.healthChecks.name"
+  ],
+  "io.dropwizard.health.DefaultHealthFactoryTest#shouldBuildHealthFactoryFromYaml": [
+    "health.healthChecks.schedule.checkInterval",
+    "health.healthChecks.schedule.successAttempts",
+    "health.healthChecks.name",
+    "health.healthChecks.critical",
+    "health.initialOverallState",
+    "health.enabled",
+    "health.shutdownWaitPeriod",
+    "health.healthChecks.schedule.downtimeInterval",
+    "health.healthChecks.schedule.failureAttempts",
+    "health.delayedShutdownHandlerEnabled"
+  ],
+  "io.dropwizard.health.HealthCheckConfigValidatorTest#startValidationsShouldFailIfAHealthCheckConfiguredButNotRegistered": [
+    "health.healthChecks.name"
+  ],
+  "io.dropwizard.health.HealthCheckConfigValidatorTest#startValidationsShouldSucceedForConfiguredAndRegisteredHealthCheck": [
+    "health.healthChecks.name"
+  ],
+  "io.dropwizard.health.HealthCheckConfigValidatorTest#startValidationsShouldSucceedButLogWhenNotAllHealthChecksAreConfigured": [
+    "health.healthChecks.name"
+  ],
+  "io.dropwizard.health.HealthCheckConfigValidatorTest#startValidationsShouldSucceedWhenNoHealthChecksConfigured": [
+    "health.healthChecks.name"
+  ],
+  "io.dropwizard.health.HealthCheckConfigurationTest#shouldBuildHealthCheckConfigurationFromYaml": [
+    "health.healthChecks.schedule.checkInterval",
+    "health.healthChecks.schedule.successAttempts",
+    "health.healthChecks.name",
+    "health.healthChecks.critical",
+    "health.healthChecks.schedule.downtimeInterval",
+    "health.healthChecks.schedule.failureAttempts"
+  ],
+  "io.dropwizard.health.HealthCheckManagerTest#shouldNotChangeServerStateWhenNonCriticalHealthCheckFails": [
+    "health.healthChecks.schedule.successAttempts",
+    "health.healthChecks.name",
+    "health.healthChecks.critical",
+    "health.healthChecks.type",
+    "health.healthChecks.schedule.failureAttempts",
+    "health.healthChecks.initialState"
+  ],
+  "io.dropwizard.health.HealthCheckManagerTest#shouldMarkServerUnhealthyWhenCriticalHealthCheckFails": [
+    "health.healthChecks.schedule.successAttempts",
+    "health.healthChecks.name",
+    "health.healthChecks.critical",
+    "health.healthChecks.type",
+    "health.healthChecks.schedule.failureAttempts",
+    "health.healthChecks.initialState"
+  ],
+  "io.dropwizard.health.HealthCheckManagerTest#shouldMarkServerHealthyWhenCriticalHealthCheckRecovers": [
+    "health.healthChecks.schedule.successAttempts",
+    "health.healthChecks.name",
+    "health.healthChecks.critical",
+    "health.healthChecks.type",
+    "health.healthChecks.schedule.failureAttempts",
+    "health.healthChecks.initialState"
+  ],
+  "io.dropwizard.health.HealthCheckManagerTest#shouldReportUnhealthyWhenInitialOverallStateIsFalse": [
+    "health.healthChecks.schedule.successAttempts",
+    "health.healthChecks.name",
+    "health.healthChecks.critical",
+    "health.healthChecks.type",
+    "health.healthChecks.schedule.failureAttempts",
+    "health.healthChecks.initialState"
+  ],
+  "io.dropwizard.health.HealthCheckManagerTest#shouldNotChangeServerStateWhenNonCriticalHealthCheckRecovers": [
+    "health.healthChecks.schedule.successAttempts",
+    "health.healthChecks.name",
+    "health.healthChecks.critical",
+    "health.healthChecks.type",
+    "health.healthChecks.schedule.failureAttempts",
+    "health.healthChecks.initialState"
+  ],
+  "io.dropwizard.health.HealthCheckManagerTest#shouldMarkServerNotAliveAndUnhealthyWhenCriticalAliveCheckFails": [
+    "health.healthChecks.schedule.successAttempts",
+    "health.healthChecks.name",
+    "health.healthChecks.type",
+    "health.healthChecks.schedule.failureAttempts",
+    "health.healthChecks.initialState"
+  ],
+  "io.dropwizard.health.HealthCheckManagerTest#shouldRecordNumberOfHealthyAndUnhealthyHealthChecks": [
+    "health.healthChecks.schedule.successAttempts",
+    "health.healthChecks.name",
+    "health.healthChecks.critical",
+    "health.healthChecks.schedule.failureAttempts",
+    "health.healthChecks.initialState"
+  ],
+  "io.dropwizard.health.HealthCheckManagerTest#shouldScheduleHealthCheckWhenConfiguredHealthCheckAdded": [
+    "health.healthChecks.schedule.successAttempts",
+    "health.healthChecks.name",
+    "health.healthChecks.critical",
+    "health.healthChecks.type",
+    "health.healthChecks.schedule.failureAttempts",
+    "health.healthChecks.initialState"
+  ],
+  "io.dropwizard.health.HealthCheckManagerTest#shouldUnscheduleTaskWhenHealthCheckRemoved": [
+    "health.healthChecks.schedule.successAttempts",
+    "health.healthChecks.name",
+    "health.healthChecks.critical",
+    "health.healthChecks.type",
+    "health.healthChecks.schedule.failureAttempts",
+    "health.healthChecks.initialState"
+  ],
+  "io.dropwizard.health.HealthCheckManagerTest#shouldContinueScheduledCheckingWhileDelayingShutdown": [
+    "health.healthChecks.schedule.initialDelay",
+    "health.healthChecks.schedule.checkInterval",
+    "health.healthChecks.schedule.successAttempts",
+    "health.healthChecks.name",
+    "health.healthChecks.critical",
+    "health.healthChecks.type",
+    "health.healthChecks.schedule.failureAttempts",
+    "health.healthChecks.initialState"
+  ],
+  "io.dropwizard.health.HealthCheckSchedulerTest#unscheduleShouldDoNothingIfNoCheckScheduled": [
+    "health.healthChecks.schedule.checkInterval"
+  ],
+  "io.dropwizard.health.HealthCheckSchedulerTest#shouldUnscheduleExistingCheck": [
+    "health.healthChecks.schedule.downtimeInterval",
+    "health.healthChecks.schedule.checkInterval"
+  ],
+  "io.dropwizard.health.HealthCheckSchedulerTest#shouldRescheduleCheckForHealthyDependency": [
+    "health.healthChecks.schedule.downtimeInterval",
+    "health.healthChecks.schedule.checkInterval"
+  ],
+  "io.dropwizard.health.HealthCheckSchedulerTest#shouldRescheduleCheckForUnhealthyDependency": [
+    "health.healthChecks.schedule.downtimeInterval",
+    "health.healthChecks.schedule.checkInterval"
+  ],
+  "io.dropwizard.health.HealthCheckSchedulerTest#shouldScheduleCheckForNotAlreadyScheduledUnhealthyDependency": [
+    "health.healthChecks.schedule.downtimeInterval"
+  ],
+  "io.dropwizard.health.HealthCheckSchedulerTest#shouldScheduleCheckForNotAlreadyScheduledHealthyDependency": [
+    "health.healthChecks.schedule.checkInterval"
+  ],
+  "io.dropwizard.health.ScheduleTest#shouldBuildAScheduleFromYaml": [
+    "health.healthChecks.schedule.successAttempts",
+    "health.healthChecks.schedule.failureAttempts",
+    "health.healthChecks.schedule.downtimeInterval",
+    "health.healthChecks.schedule.checkInterval"
+  ]
+}
